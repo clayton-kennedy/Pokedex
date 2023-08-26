@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Oxanium', cursive;
+}
+
+body {
+     text-align: center;
+     background: linear-gradient(180deg, rgb(0, 162, 255), rgb(125, 207, 255));
+     background-repeat: no-repeat;
+     min-height: 100vh;
+     overflow: hidden;
+}
+main {
+     display: inline-block;
+     margin-top: 2%;
+     padding: 15px;
+     position: relative;
+     overflow: hidden;
+     height: 100%;
+}
+
+.nuvem0 {
+     position: absolute;
+     width: 100%;
+     opacity: 0.4;
+     top: 0;
+     right: 0;
+     z-index: 0;
+     animation: nuvem-animation2 45s infinite linear;
+}
+.nuvem1 {
+     position: absolute;
+     width: 25%;
+     opacity: 0.3;
+     top: 0;
+     right: 0;
+     z-index: 0;
+     animation: nuvem-animation 25s infinite linear;
+}
+.nuvem2 {
+     position: absolute;
+     width: 55%;
+     opacity: 0.9;
+     top: 30%;
+     right: 0;
+     z-index: 0;
+     animation: nuvem-animation 40s infinite linear;
+}
+.nuvem3 {
+     position: absolute;
+     width: 25%;
+     opacity: 0.5;
+     top: 70%;
+     right: 0;
+     z-index: 0;
+     animation: nuvem-animation2 20s infinite linear;
+}
+.nuvem4 {
+     position: absolute;
+     width: 55%;
+     opacity: 0.8;
+     top: 0%;
+     right: 0;
+     z-index: 0;
+     animation: nuvem-animation 30s infinite linear;
+}
+.nuvem5 {
+     position: absolute;
+     width: 35%;
+     opacity: 0.6;
+     top: 90%;
+     right: 0;
+     z-index: 0;
+     animation: nuvem-animation 10s infinite linear;
+}
+.nuvem6 {
+     position: absolute;
+     width: 55%;
+     opacity: 0.9;
+     top: 0%;
+     right: 0;
+     z-index: 0;
+     animation-direction: alternate;
+     animation: nuvem-animation 30s infinite linear;
+}
+@keyframes nuvem-animation {
+     from {
+          right: -100%;
+     }
+     to {
+          right: 100%;
+     }
+}
+@keyframes nuvem-animation2 {
+     from {
+          left: -100%;
+     }
+     to {
+          left: 100%;
+     }
+}
+.pokedex {
+    width: 100%; 
+    max-width: 425px;
+}
+.pokemon-img {
+     position: absolute;
+     bottom: 62%;
+     left: 47%;
+     transform: translate(-55%, 65%);
+     height: 18%;
+}
+.dados-pokemon {
+     position: absolute;
+     font-weight: 600;
+     color: #AAA;
+     top: 54.5%;
+     right: 27%;
+     font-size: clamp(8px, 5vw, 25px);
+}
+.nome-pokemon {
+     color: #3A444D;
+     text-transform: capitalize;
+}
+.numero-pokemon {
+     color: red;
+}
+.form {
+     position: absolute;
+     width: 68%;
+     top: 65%;
+     left: 11.7%;
+}
+.buscar {
+     width: 100%;
+     padding: 4%;
+     outline: none;
+     border: 2px solid #333;
+     border-radius: 7px;
+     font-weight: 600;
+     color: #3A444D;
+     font-size: clamp(8px, 5vw, 1rem);
+     box-shadow: -2px 4px 0 #888, -4px 7px 0 #333;
+}
+.buttons {
+     position: absolute;
+     bottom: 10%;
+     left: 50%;
+     width: 65%;
+     transform: translate(-57%, 0);
+     display: flex;
+     gap: 20px;
+}
+.button {
+     width: 50%;
+     padding: 4%;
+     border: 2px solid black;
+     border-radius: 5px;
+     font-size: clamp(8px, 5vw, 1rem);
+     font-weight: 600;
+     color: white;
+     background-color: #444;
+     box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+.button:active {
+     box-shadow: inset -4px 4px 0 #222;
+     font-size: 0.9rem;
+}
