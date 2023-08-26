@@ -131,7 +131,7 @@ main {
 .numero-pokemon {
      color: red;
 }
-.tipo-pokemon {
+.tipo-pokemon, .tipo2-pokemon {
      color: #3A444D;
      text-transform: capitalize;
 }
