@@ -25,71 +25,73 @@ main {
 
 .nuvem0 {
      position: absolute;
-     width: 100%;
-     opacity: 0.4;
+     width: 50%;
+     opacity: 0.7;
      top: 0;
-     right: 0;
      z-index: 0;
-     animation: nuvem-animation2 45s infinite linear;
+     animation: nuvem-animation2 30s infinite linear;
 }
 .nuvem1 {
      position: absolute;
-     width: 25%;
-     opacity: 0.3;
-     top: 0;
-     right: 0;
+     width: 50%;
+     opacity: 0.8;
+     top: -50%;
      z-index: 0;
-     animation: nuvem-animation 25s infinite linear;
+     animation: nuvem-animation 30s infinite linear;
 }
 .nuvem2 {
      position: absolute;
-     width: 55%;
-     opacity: 0.9;
-     top: 30%;
-     right: 0;
+     width: 30%;
+     opacity: 1;
+     top: -10%;
      z-index: 0;
-     animation: nuvem-animation 40s infinite linear;
+     animation: nuvem-animation 15s infinite linear;
 }
 .nuvem3 {
      position: absolute;
-     width: 25%;
-     opacity: 0.5;
-     top: 70%;
-     right: 0;
+     width: 30%;
+     opacity: 1;
+     top: 30%;
      z-index: 0;
-     animation: nuvem-animation2 20s infinite linear;
+     animation: nuvem-animation2 15s infinite linear;
 }
 .nuvem4 {
      position: absolute;
-     width: 55%;
-     opacity: 0.8;
-     top: 0%;
-     right: 0;
+     width: 60%;
+     opacity: 0.5;
+     top: 50%;
      z-index: 0;
-     animation: nuvem-animation 30s infinite linear;
+     animation: nuvem-animation2 30s infinite linear;
+}
+.nuvem4 {
+     position: absolute;
+     width: 60%;
+     opacity: 0.5;
+     top: 50%;
+     z-index: 0;
+     animation: nuvem-animation2 30s infinite linear;
 }
 .nuvem5 {
      position: absolute;
-     width: 35%;
-     opacity: 0.6;
-     top: 90%;
-     right: 0;
+     width: 5%;
+     opacity: 1;
+     top: 0%;
      z-index: 0;
-     animation: nuvem-animation 10s infinite linear;
+     animation: nuvem-animation 7s infinite linear;
 }
 .nuvem6 {
      position: absolute;
-     width: 55%;
-     opacity: 0.9;
-     top: 0%;
-     right: 0;
+     width: 5%;
+     opacity: 1;
+     top: 60%;
      z-index: 0;
-     animation-direction: alternate;
-     animation: nuvem-animation 30s infinite linear;
+     animation: nuvem-animation2 7s infinite linear;
 }
+
+
 @keyframes nuvem-animation {
      from {
-          right: -100%;
+          right: -50%;
      }
      to {
           right: 100%;
@@ -97,7 +99,7 @@ main {
 }
 @keyframes nuvem-animation2 {
      from {
-          left: -100%;
+          left: -50%;
      }
      to {
           left: 100%;
