@@ -47,12 +47,11 @@ const renderPokemon = async (pokemon) => {
 
 form.addEventListener('submit', (event) => {
      event.preventDefault();
-     console.log('enviando formulário...')
 
      renderPokemon(input.value.toLowerCase()); /*toLowerCase para transformar todos caracteres digitados em minusculo */
      input.value = ''; /* para limpar a busca após a pesquisa */
-
 });
+
 buttonPrev.addEventListener('click', () => {
      if (buscarpokemon > 1){
      buscarpokemon -= 1;
@@ -63,4 +62,4 @@ buttonNext.addEventListener('click', () => {
      buscarpokemon += 1;
      renderPokemon(buscarpokemon);
 });
-renderPokemon('1');
+renderPokemon(buscarpokemon);
