@@ -41,6 +41,7 @@ const renderPokemon = async (pokemon) => {
           pokemonName.innerHTML = 'Não encontrado';
           pokemonNumber.innerHTML = '';
           pokemonType.innerHTML = '';
+          pokemonType2.innerHTML = '';
      }
 }
 
