@@ -131,10 +131,14 @@ main {
 .numero-pokemon {
      color: red;
 }
+.tipo-pokemon {
+     color: #3A444D;
+     text-transform: capitalize;
+}
 .form {
      position: absolute;
      width: 68%;
-     top: 65%;
+     top: 70%;
      left: 11.7%;
 }
 .buscar {
