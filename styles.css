@@ -121,7 +121,7 @@ main {
      font-weight: 600;
      color: #AAA;
      top: 54.5%;
-     right: 27%;
+     right: 23%;
      font-size: clamp(8px, 5vw, 25px);
 }
 .nome-pokemon {
